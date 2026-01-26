@@ -30,6 +30,8 @@ if(isset($_POST['añadirCesta'])){
 }else if(isset($_POST['pedido'])){
     $cesta = devolverCesta();
     if($cesta != null ){
+
+        //aqui debo implementar la pasarela de pago
         if(verificarPago()){
             registrarCompra();
             vaciarCesta();

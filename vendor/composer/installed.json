@@ -1,0 +1,59 @@
+{
+    "packages": [
+        {
+            "name": "adyen/php-api-library",
+            "version": "v28.3.0",
+            "version_normalized": "28.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Adyen/adyen-php-api-library.git",
+                "reference": "852e733b11738809d2315ab459a9074eeea42e2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Adyen/adyen-php-api-library/zipball/852e733b11738809d2315ab459a9074eeea42e2a",
+                "reference": "852e733b11738809d2315ab459a9074eeea42e2a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "dms/phpunit-arraysubset-asserts": "0.5.0",
+                "friendsofphp/php-cs-fixer": "*",
+                "php-coveralls/php-coveralls": "2.7.0",
+                "phpunit/phpunit": "9.6.23",
+                "squizlabs/php_codesniffer": "3.10.2"
+            },
+            "time": "2025-10-22T16:17:09+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Adyen\\": "src/Adyen/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A PHP client library for accessing Adyen APIs",
+            "homepage": "https://github.com/Adyen/adyen-php-api-library",
+            "keywords": [
+                "adyen"
+            ],
+            "support": {
+                "issues": "https://github.com/Adyen/adyen-php-api-library/issues",
+                "source": "https://github.com/Adyen/adyen-php-api-library/tree/v28.3.0"
+            },
+            "install-path": "../adyen/php-api-library"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
