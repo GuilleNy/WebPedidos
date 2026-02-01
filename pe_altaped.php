@@ -34,14 +34,14 @@ if(isset($_POST['añadirCesta'])){
     if($cesta != null ){
 
         //aqui debo implementar la pasarela de pago
-        
+        /*
         if(verificarPago()){
-        
+        */
             registrarCompra();
             vaciarCesta();
-        
+        /*
         }
-        
+        */
     }else{
         echo "Debes seleccionar un producto";
     }
@@ -52,7 +52,7 @@ if(isset($_POST['añadirCesta'])){
     header("Location: ./pe_inicio.php");
     exit();
 }
-phpinfo();
+//phpinfo();
 ?>
 
 

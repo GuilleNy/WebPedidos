@@ -1,9 +1,9 @@
-DROP DATABASE pedidos;
-CREATE DATABASE pedidos;
+/*DROP DATABASE pedidos;*/
+/*CREATE DATABASE pedidos;*/
 
-USE pedidos;
+/*USE pedidos;*/
 
-DROP TABLE IF EXISTS offices;
+/*DROP TABLE IF EXISTS offices;*/
 
 CREATE TABLE offices (
   officeCode varchar(10) NOT NULL,
@@ -39,7 +39,7 @@ insert  into offices(officeCode,city,phone,addrebLine1,addrebLine2,state_code,co
 
 /*Table structure for table employees */
 
-DROP TABLE IF EXISTS employees;
+/*DROP TABLE IF EXISTS employees;*/
 
 CREATE TABLE employees (
   employeeNumber int(11) NOT NULL,
@@ -110,7 +110,7 @@ insert  into employees(employeeNumber,lastName,firstName,extension,email,officeC
 /*Table structure for table productlines */
 /*Table structure for table customers */
 
-DROP TABLE IF EXISTS customers;
+/*DROP TABLE IF EXISTS customers;*/
 
 CREATE TABLE customers (
   customerNumber int(11) NOT NULL,
@@ -382,7 +382,7 @@ insert  into customers(customerNumber,customerName,contactLastName,contactFirstN
 
 /*Table structure for table productlines */
 
-DROP TABLE IF EXISTS productlines;
+/*DROP TABLE IF EXISTS productlines;*/
 
 CREATE TABLE productlines (
   productLine varchar(50) NOT NULL,
@@ -412,7 +412,7 @@ insert  into productlines(productLine,textDescription,htmlDescription,image) val
 
 /*Table structure for table orders */
 
-DROP TABLE IF EXISTS orders;
+/*DROP TABLE IF EXISTS orders;*/
 
 CREATE TABLE orders (
   orderNumber int(11) NOT NULL,
@@ -1085,7 +1085,7 @@ insert  into orders(orderNumber,orderDate,requiredDate,shippedDate,status,commen
 
 /*Table structure for table products */
 
-DROP TABLE IF EXISTS products;
+/*DROP TABLE IF EXISTS products;*/
 
 CREATE TABLE products (
   productCode varchar(15) NOT NULL,
@@ -1328,7 +1328,7 @@ insert  into products(productCode,productName,productLine,productScale,productVe
 
 /*Table structure for table orderdetails */
 
-DROP TABLE IF EXISTS orderdetails;
+/*DROP TABLE IF EXISTS orderdetails;*/
 
 CREATE TABLE orderdetails (
   orderNumber int(11) NOT NULL,
@@ -7344,7 +7344,7 @@ insert  into orderdetails(orderNumber,productCode,quantityOrdered,priceEach,orde
 
 /*Table structure for table payments */
 
-DROP TABLE IF EXISTS payments;
+/*DROP TABLE IF EXISTS payments;*/
 
 CREATE TABLE payments (
   customerNumber int(11) NOT NULL,

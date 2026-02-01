@@ -33,8 +33,8 @@ function registrarCompra(){
         $importeTotal=precioTotalCesta();
         $orderLineNumber = 1;
 
-        crearOrders($conn, $codigoOrder , $numCli,  $date, $date);
-        
+        //crearOrders($conn, $codigoOrder , $numCli,  $date, $date);
+        /*
         foreach ($cestaProductos as $productos => $detalles) {
             $idProducto = $detalles[0];
             $priceEach = $detalles[2];
@@ -45,7 +45,13 @@ function registrarCompra(){
             $orderLineNumber++;
         }  
         crearPayments($conn, $numCli, $numeroPago, $date, $importeTotal);
+        */
     $conn->commit();
+    /********************************************************************************* */
+    //Redirigir al checkout de Adyen
+    header("Location: checkout_fronted.php");
+    exit;
+    /********************************************************************************* */
     echo "Compra realizada con éxito.";
     }catch(PDOException $e){
         if ($conn->inTransaction()) {
