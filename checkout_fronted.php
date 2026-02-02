@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 require_once __DIR__ . '/config/adyen.php';
 require_once __DIR__ . '/process_payment.php'; // esto ejecuta la creación de la sesión
 // checkout_frontend.php

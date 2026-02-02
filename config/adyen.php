@@ -1,12 +1,11 @@
 <?php
     
-    define('ADYEN_API_KEY', 'AQEshmfxLYrIbhJLw0m/n3Q5qf3Vf45PHZZOUWFZ1YdU/Vpvhcjfo6JPcKGuP8IQwV1bDb7kfNy1WIxIIkxgBw==-/jwM9nMQqngP+ygFcCABF/FGDxcGbnOD6UVk0jXXc+8=-i1iDfPtY4YWX5,Tu3HZ');
-    define('ADYEN_MERCHANT', 'WebpedidosECOM');
-    define('ADYEN_CLIENT_KEY', 'test_B5UABBAMURG2NBLNT6S2JVF6NUK4EHTJ');
+    define('ADYEN_API_KEY', 'AQEshmfxLovKYxxKw0m/n3Q5qf3Vf45PHZZOUWFZ1S9jmI2g6AjLVPhFRfUP90sQwV1bDb7kfNy1WIxIIkxgBw==-Sb7HfWOzY9yJUmG0PXGkwpsq3WOmx17PvaaDgwFtf9A=-i1iW4M3GwfE.JEHV,_2');
+    define('ADYEN_MERCHANT', 'Webpedidos');
+    define('ADYEN_CLIENT_KEY', 'test_ZDVCTMMUIFEZTBLBKTOSOZMRIUIMJCPM');
     define('ADYEN_ENV', 'TEST');
-    
-    
-    
+        
+        
     
     
     
